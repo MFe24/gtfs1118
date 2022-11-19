@@ -64,7 +64,7 @@ function T(a,n,i,m,t) {
     } else {
       map.setView([a,n],12);
     }
-    L.marker([a,n], {icon: i,zIndexOffset: 1000}).addTo(map).bindPopup(m,{autoPan: false,maxWidth: 1000,closeButton: false}).openPopup();
+    L.marker([a,n], {icon: i,zIndexOffset: 1000}).addTo(map).bindPopup(m,{autoPan: false,maxWidth: 1000,closeButton: true}).openPopup();
     a_m=a;n_m=n;
 }
 function DR(a1,n1,a2,n2,c,a,wid) {
